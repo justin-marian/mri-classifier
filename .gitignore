@@ -1,0 +1,128 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# C extensions
+*.so
+
+# Virtual environments
+*.env
+*.venv
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pyre type checker
+.pyre/
+
+# Data science
+*.csv
+*.tsv
+*.data
+*.dat
+*.npy
+*.npz
+
+# Logs and reports
+*.log
+*.out
+*.txt
+*.pid
+*.seed
+*.run
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# SQL Database
+*.sqlite3
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# PyCharm specific
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Sphinx documentation
+docs/_build/
+
+# PyLint
+pylint.log
+
+# Dist files
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+dist/
+build/
+develop-eggs/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+MANIFEST
+
+# Cython debug symbols
+cython_debug/
+
+# Pyright
+typings/
+
+# Coverage reports
+.coverage
+.coverage.*
+.cache/
+coverage.xml
+nosetests.xml
+
+# dotenv environment variables
+.env
+.venv
+
+# Python stack traces
+*.stacktrace
+
+# Temporary files and folders
+*.bak
+*.swp
+*.swo
+*~
