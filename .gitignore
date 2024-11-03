@@ -9,6 +9,7 @@ __pycache__/
 *.so
 
 # Virtual environments
+.venv
 *.env
 *.venv
 venv/
@@ -26,6 +27,7 @@ venv.bak/
 .pyre/
 
 # Data science
+archive/*
 *.csv
 *.tsv
 *.data
@@ -34,9 +36,10 @@ venv.bak/
 *.npz
 
 # Logs and reports
+meta/
+*.yaml
 *.log
 *.out
-*.txt
 *.pid
 *.seed
 *.run
@@ -112,11 +115,6 @@ typings/
 .coverage.*
 .cache/
 coverage.xml
-nosetests.xml
-
-# dotenv environment variables
-.env
-.venv
 
 # Python stack traces
 *.stacktrace
